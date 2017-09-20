@@ -40,7 +40,7 @@ def play(my_songs)
     puts "Invalid input, please try again"
   else
     puts "Now playing #{song_to_play}"
-    system 'open ' << ../audio/song_to_play.mp3
+    system 'open ' << ../audio/"#{song_to_play}.mp3"
   end
 end
 
